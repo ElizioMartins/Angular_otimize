@@ -6,6 +6,7 @@ import { PhotosModule } from './photos/photos.module';
 import { AppRoutingModule } from './app.routing.module';
 import { ErrorsModule } from './errors/errors.module';
 import { CoreModule } from './core/core.module';
+import { PhotoListModule } from 'alurapic/src/app/photos/photo-list/photo-list.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,8 @@ import { CoreModule } from './core/core.module';
     ErrorsModule,
     CoreModule,
     AppRoutingModule,
+    PhotoListModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
