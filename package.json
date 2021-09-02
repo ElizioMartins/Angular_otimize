@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@angular/core": "^12.2.3"
+    "@angular/core": "^12.2.3",
+    "@syncfusion/ej2-angular-buttons": "^19.2.55"
   }
 }
